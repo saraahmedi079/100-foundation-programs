@@ -9,9 +9,9 @@ for(j=1;j<=n-i;j++){
 printf(" ");
 }
 for(k=1;k<=i;k++){
-printf("*");
+printf("* ");
 }
-printf("\n");
+printf("\t\n");
 }
 return 0;
 }
