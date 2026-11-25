@@ -2,13 +2,11 @@
 int main()
 {
                 int i,j,n;
-                char ch='A';
                 printf("Number of rows:");
                 scanf("%d",&n);
-                for (i=1;i<=n;i++){
+                for (i=n;i>=1;i--){
                 for (j=1;j<=i;j++){
-                printf("%c",ch);
-                ch++;
+                printf("%c",'A'+j-1);
                 }
                 printf("\n");
                 }
